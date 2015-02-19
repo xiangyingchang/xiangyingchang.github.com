@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>向应昌kally</title>
+ <link href="http://milanaryal.com/feed.xml" rel="self"/>
+ <link href="http://milanaryal.com/"/>
+ <updated>2015-02-19T14:53:59+00:00</updated>
+ <id>http://milanaryal.com</id>
+ <author>
+   <name>向应昌kally</name>
+   <email>considermilan@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>其实没有以后</title>
+   <link href="http://milanaryal.com/2015/qishimeiyouyihou/"/>
+   <updated>2015-02-19T00:00:00+00:00</updated>
+   <id>http://milanaryal.com/2015/qishimeiyouyihou</id>
+   <content type="html">&lt;p&gt;曾有朋友和我说过，不谈以后。因为“以后”是由每一个“现在”组成的：如果现在都不能做好，又何来得以后，所以想做的事，都要趁早不要留到以后。&lt;/p&gt;
+
+&lt;p&gt;小时候家里穷，每一次我想要某个玩具的时候，妈妈都会说：以后 一定给你买。 我也欣然接受，开始幻想着未来的某一天拥有这个玩具的情景，然后笑出声来。&lt;/p&gt;
+
+&lt;p&gt;以后的以后，突然看见曾经想要的玩具，妈妈说还喜欢吗，要不买了吧？我笑了笑，都多大了，然后很无语的自问：自己竟然还喜欢过那种东西。&lt;/p&gt;
+
+&lt;p&gt;其实又何止玩具呢？在某个年龄，在某个阶段，甚至在某种心情，你做想的所要拥有的也许在下一刻就已经都不再重要。&lt;/p&gt;
+
+&lt;p&gt;这和专注无关，更与坚持无关，只是不同的时间和空间，有些东西在你心中的位置已经不再像以前那般重要。&lt;/p&gt;
+
+&lt;p&gt;还记得她还在我身边的的时候，发现好看的电影，我们总会说以后我们去看吧；知道好吃的东西，我们会说以后我们去吃吧；提起想去的地方，我们会说以后我们一起去玩吧…….可是，那么多的”以后“，终究还是抵不过时光的力量，那么多的“以后“也就真的成了永远的以后。&lt;/p&gt;
+
+&lt;p&gt;小时候总是想，长大以后要以加倍的爱来回报父母。长大了，父母还是以各种方式来呵护着我。这个学期基本每个周我都会回家去和父母待一待，那是我重整斗志的地方。这次回家的的当晚，爸爸加班，从晚上十一点忙到第二天六点，回家后不到一个小时又出去了，直到晚上八点多才回到家。后来我们在家里玩，很吵，可是爸爸却睡得很沉，看着身旁打瞌睡的爸爸，心里涌出的已经不止是凉意。他们的辛苦我很少在文章中写道，朋友都劝我要享受享受生活不要那么累的时候，我只是笑了笑，因为只有我知道我的父母过着怎么辛苦的生活，我也不愿意把这些让我心里苦痛的东西拿出来一遍一遍的诉说。&lt;/p&gt;
+
+&lt;p&gt;我只好，默默地去努力。&lt;/p&gt;
+
+&lt;p&gt;这不是从前，从前的我会常常告诉自己想要点东西，等有时间以后。&lt;/p&gt;
+
+&lt;p&gt;去玩一次——有时间以后；&lt;/p&gt;
+
+&lt;p&gt;去爱一次——有时间以后；&lt;/p&gt;
+
+&lt;p&gt;去读一本书——有时间以后；&lt;/p&gt;
+
+&lt;p&gt;去报答父母——有时间以后&lt;/p&gt;
+
+&lt;p&gt;……&lt;/p&gt;
+
+&lt;p&gt;现在的我终于知道，真的没有以后。所以，想做的我才拼命的抓紧时间去做；所以，用足够多的空闲去陪伴父母；所以，常人无法理解的去努力；&lt;/p&gt;
+
+&lt;p&gt;所以，当你一次又一次的说以后的时候，我也真的从来没有过相信。&lt;/p&gt;
+
+&lt;p&gt;晚安。&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>写作环境搭建(git+github+markdown+jekyll)</title>
+   <link href="http://milanaryal.com/2015/jekyll/"/>
+   <updated>2015-02-19T00:00:00+00:00</updated>
+   <id>http://milanaryal.com/2015/jekyll</id>
+   <content type="html">&lt;h2 id=&quot;section&quot;&gt;缘起&lt;/h2&gt;
+
+&lt;p&gt;读了阳志平大神的一篇博文&lt;a href=&quot;http://www.yangzhiping.com/tech/writing-space.html&quot;&gt;理想的写作环境：git+github+markdown+jekyll&lt;/a&gt;,不由感叹，这就是我想要的，于是就开始着手做这件事。在小站里也推荐了一下，然后发现，好多朋友早就已经搞起了，有的已经玩腻了，我果然又落伍了=。 =。这将是我第一篇用Markdown写的博文，当作练手~，真的很简单。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;参考&lt;/h2&gt;
+
+&lt;p&gt;这方面的好文章网上相当多，我挑几个自己用上的列出来： &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git/github相关:
+      + &lt;a href=&quot;http://www.yangzhiping.com/tech/git.html&quot;&gt;阳志平：Git与Github入门资料&lt;/a&gt; 
+      + &lt;a href=&quot;http://www.yangzhiping.com/tech/github.html&quot;&gt;阳志平：如何高效利用GitHub&lt;/a&gt; &lt;/li&gt;
+  &lt;li&gt;markdown相关：
+      + &lt;a href=&quot;http://wowubuntu.com/markdown/&quot;&gt;Markdown 语法说明 (简体中文版)&lt;/a&gt;
+      + &lt;a href=&quot;http://www.ituring.com.cn/article/23&quot;&gt;图灵社区 : 怎样使用Markdown&lt;/a&gt;
+      + &lt;a href=&quot;http://www.yangzhiping.com/tech/r-markdown-knitr.html&quot;&gt;阳志平：Markdown写作浅谈&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;jekyall相关：
+      + &lt;a href=&quot;http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html&quot;&gt;搭建一个免费的，无限流量的Blog—-github Pages和Jekyll入门&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;综述：
+      + &lt;a href=&quot;http://yanping.me/cn/blog/2012/03/18/github-pages-step-by-step/&quot;&gt;Github Pages极简教程 - 雁起平沙的网络日志&lt;/a&gt;
+      + &lt;a href=&quot;http://blog.skydark.info/programming/2012/03/23/play-with-jekyll/&quot;&gt;Play with Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;说实话，这几篇看完了尤其是综述，就不用往下看了，以下作为我个人记录，只给出简单的过程以及排错经验，再无概念上的陈述，以备后用。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-2&quot;&gt;过程记录&lt;/h2&gt;
+
+&lt;h3 id=&quot;ubuntu-1204&quot;&gt;以下过程在ubuntu 12.04下进行&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;apt-get安装rubygems之后，&lt;em&gt;gem install jekyll&lt;/em&gt;安装jekyll，并用同样的gem命令安装directory_watcher、liquid、open4、maruku、classifier，rdiscount这几个包。Jekyll默认用maruku来解析markdown语言，你也可以用别的程序来解析，比如上面的rdiscount。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;github上建立名为&lt;em&gt;username&lt;/em&gt;.github.com的项目，其中&lt;em&gt;username&lt;/em&gt;是你自己的github用户名。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;em&gt;git clone&lt;/em&gt;该项目至本地同名文件夹&lt;em&gt;username&lt;/em&gt;.github.com。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;偷懒下载别人改好的jekyll模板框架，比较有名的是Octopress和Jekyll Bootstrap，另外&lt;a href=&quot;https://github.com/mojombo/jekyll/wiki/sites&quot;&gt;https://github.com/mojombo/jekyll/wiki/sites&lt;/a&gt;里面有很多可供参考的模板，我使用的是&lt;a href=&quot;https://github.com/kejinlu/kejinlu.github.com&quot;&gt;kejinlu.github.com&lt;/a&gt;。由于这些模板一般都是github上的，所以你可以直接&lt;em&gt;git clone&lt;/em&gt;到本地，然后将其内容copy到你的&lt;em&gt;username&lt;/em&gt;.github.com本地文件夹中。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;接下来就是改动其内容，美其名曰hack，实际上我对前端代码完全看不懂，所以只做了最低级的修改，比如个人信息和文章神马的，注意一定要将他人的.git文件删掉。改完后，push到github上，就算大功告成了，过个10分钟左右访问http://&lt;em&gt;username&lt;/em&gt;.github.com，就可以看到你的blog雏形了。注意如果接到github发来的邮件告诉你发生错误，就说明没有正确配置，无法显示你的blog，我遇到过两个错误：&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt; &amp;gt;For information on troubleshooting Jekyll see https://help.github.com/articles/using-jekyll-with-pages#troubleshooting 
+
+ 这个错误一般是本地安装的jekyll或者ruby，rubygems等软件包版本不符合github的版本要求。你可以使用*gem list*命令查看本地的软件包版本号。以下是github上软件包的版本号要求。 
+         gem &#39;jekyll&#39;, &#39;=0.12.0&#39; 
+         gem &#39;liquid&#39;, &#39;=2.4.1&#39; 
+         gem &#39;redcarpet&#39;, &#39;=2.1.1&#39; 
+         gem &#39;maruku&#39;, &#39;=0.6.0&#39; 
+         gem &#39;rdiscount&#39;, &#39;=1.6.8&#39; 
+         gem &#39;RedCloth&#39;, &#39;=4.2.9&#39;
+    
+    
+ &amp;gt;CNAME already taken: ...... 
+ 
+ 这个错误需要把本地文件夹下的CNAME文件删掉，这个应该是别人定义自己自定义域名用的，如果你没有自定义域名，那就不需要。
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果你的blog可以正确访问了，你就可以在_posts文件夹下添加.md文件作为你的博文，注意命名格式一定要是yy-mm-dd-&lt;em&gt;title&lt;/em&gt;.md,title是你文章的标题。写完之后push到github上就可以在你的blog上显示了，其中每篇文章的开头都要指定一定的格式，如本文：&lt;/p&gt;
+
+    &lt;pre&gt;&lt;code&gt;         ---
+         layout: post
+         categories: [Tools]
+         tags: [jekyll, github, git, markdown]
+         ---
+
+ *layout: post*指的是博文格式安装_layouts文件夹下的post.html指定的格式来显示。 
+ *categories: [Tools]*指定博文分类。 
+ *tags: [jekyll, github, git, markdown]*指定博文标签。
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如上所述，每次对博文做出改动都需要push到github上才能看到效果，那么如何不需要联网直接在本地调试呢，显然是可以的，因为你本地已经安装了jekyll（在第一步骤中），具体做法就是在本地&lt;em&gt;username&lt;/em&gt;.github.com文件夹下运行命令，&lt;em&gt;jekyll serve&lt;/em&gt;，在jekyll 0.12.0以前的命令好像是&lt;em&gt;jekyll –server&lt;/em&gt;，这样就启动了jekyll本地端口的监听，当你访问&lt;em&gt;localhost:4000&lt;/em&gt;时，就会看到你blog显示出来了。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section-3&quot;&gt;&lt;strong&gt;注意事项&lt;/strong&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;整个过程中最让我困扰的的是rubygems软件包版本的问题，用apt-get怎么也搞不定，可能是源的问题，最终我是从&lt;a href=&quot;http://rubygems.org/&quot;&gt;rubygems.org&lt;/a&gt;中搜索所有我想要的版本的包的，然后用&lt;em&gt;gem instll&lt;/em&gt;安装包就可以了。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;在家里我用的ubuntu搭建的环境，在公司的时候我用windows想往github上push文章，但是发现都是乱码，这是因为我用的mysgit对中文支持不好，于是我按照&lt;a href=&quot;http://blog.csdn.net/self001/article/details/7337182&quot;&gt;windows下git bash显示中文&lt;/a&gt;的方法做了修改，并按照&lt;a href=&quot;http://www.cuiguojie.com/msysgit_editor_gvim.html&quot;&gt;git编辑器改用本机gvim&lt;/a&gt;的方法在mysgit下使用gvim或notepad++打开我的博文，保存为utf-8格式，这样再push就好用了。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;详见我的博客：http://ellochen.github.com/2013/03/%E5%86%99%E4%BD%9C%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%28git%2Bgithub%2Bmarkdown%2Bjekyll%29/&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

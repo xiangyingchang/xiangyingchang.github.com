@@ -1,0 +1,6 @@
+# robotstxt.org/
+
+# Allow crawling of all content
+User-agent: *
+Disallow:
+Sitemap: http://milanaryal.com/sitemap.xml
