@@ -22,7 +22,7 @@
 
 # SITE
 
-    Last updated: 2015/02/19
+    Last updated: 2015/02/20
     Language: English / Nepali
     Doctype: HTML5
     IDE: Atom Editor, Sublime Text, Notepad++, GitHub, Photoshop, Illustrator
