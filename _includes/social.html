@@ -1,12 +1,29 @@
     <div class="social-container">
-    <div id="ckepop">
-<a href="http://www.jiathis.com/share/" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank">分享到：</a>
-<a class="fa fa-weibo fa-stack-1x"></a>
-<a class="jiathis_button_tools_2"></a>
-<a class="jiathis_button_tools_3"></a>
-<a class="jiathis_button_tools_4"></a>
-</div>
-
-<!-- JiaThis Button BEGIN -->
-<script type="text/javascript" src="http://v2.jiathis.com/code/jia.js" charset="utf-8"></script>
+        <ul class="list-inline text-center text-muted">
+            <li>
+                <a href="#" data-type="twitter" data-url="{{ page.url | prepend: site.url }}" data-title="{{ page.title }}" data-via="{{ site.author.weibos }}" class="social" title="Twitte it" data-toggle="tooltip" data-placement="bottom">
+                    <span class="fa-stack fa-lg"><i class="fa fa-twitter fa-stack-1x"></i></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-type="facebook" data-url="{{ page.url | prepend: site.url }}" data-title="{{ page.title }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" data-media="{% if page.image %}{{ page.image }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}" class="social" title="Share on Facebook" data-toggle="tooltip" data-placement="bottom">
+                    <span class="fa-stack fa-lg"><i class="fa fa-facebook fa-stack-1x"></i></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-type="googleplus" data-url="{{ page.url | prepend: site.url }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" class="social" title="Share on Google+" data-toggle="tooltip" data-placement="bottom">
+                    <span class="fa-stack fa-lg"><i class="fa fa-google-plus fa-stack-1x"></i></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-type="pinterest" data-url="{{ page.url | prepend: site.url }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" data-media="{% if page.image %}{{ page.image }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}" class="social" title="Pin it" data-toggle="tooltip" data-placement="bottom">
+                    <span class="fa-stack fa-lg"><i class="fa fa-pinterest fa-stack-1x"></i></span>
+                </a>
+            </li>
+            <li>
+                <a href="#" data-type="linkedin" data-url="{{ page.url | prepend: site.url }}" data-title="{{ page.title }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" data-via="{{ site.author.linkedin }}" data-media="{% if page.image %}{{ page.image }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}" class="social" title="Share on LinkedIn" data-toggle="tooltip" data-placement="bottom">
+                    <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span>
+                </a>
+            </li>
+        </ul>
     </div>
