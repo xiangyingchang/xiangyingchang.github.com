@@ -67,7 +67,7 @@ title: 大学社团：人生没有作废的经历
 
 一是学会了团队协作，重要性在这里不多说；
 
-二是认识了各种朋友，从他们身上我看到了不一样的生活方式和态度，总会在某个瞬间突然感叹：啊 原来生活还可以是这样子！是身边的人给了我动力和方向，让自己不敢堕落。当然还有友情，可以移步看我之前写的总结[《大二之初写给一直在努力从未放弃过的自己》](http://xiangyingchang.com/2013/xiezaidayizhichudaerzhimo/)[http://xiangyingchang.com/2013/xiezaidayizhichudaerzhimo/](http://xiangyingchang.com/2013/xiezaidayizhichudaerzhimo/)。
+二是认识了各种朋友，从他们身上我看到了不一样的生活方式和态度，总会在某个瞬间突然感叹：啊 原来生活还可以是这样子！是身边的人给了我动力和方向，让自己不敢堕落。当然还有友情，可以移步看我之前写的总结[《大二之初写给一直在努力从未放弃过的自己》](http://xiangyingchang.com/2013/xiezaidayizhichudaerzhimo/)。
 
 选择社团时几点小的建议可以参考
 
