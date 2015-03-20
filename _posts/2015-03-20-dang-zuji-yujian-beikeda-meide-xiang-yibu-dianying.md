@@ -1,8 +1,6 @@
 ---
-
-layout:post
-title:当北科大遇见足记，美得像一部电影
-
+layout: post
+title: 当北科大遇见足记·美得像一部电影
 ---
 <center></center>
 <center>![](http://i.imgur.com/EfFOHQH.jpg)</center>
