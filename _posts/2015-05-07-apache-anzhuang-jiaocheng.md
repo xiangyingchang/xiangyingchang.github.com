@@ -11,7 +11,7 @@ title: Apache安装教程
  <br>
 <center><img src="http://i.imgur.com/BzvNAE3.png"/></center>
  <br>
- 4. 修改httpd.conf文件（D:\Apache24\conf）：用编辑器打开httpd.conf，找到`Define SRVROOT "/Apache24"和ServerRoot "${SRVROOT}"`，修改为：`Define SRVROOT "D:\Apache24**"和ServerRoot "D:\Apache24"`，保存。
+ 4. 修改httpd.conf文件（D:\Apache24\conf）：用编辑器打开httpd.conf，找到`Define SRVROOT "/Apache24"和ServerRoot "${SRVROOT}"`，修改为：`Define SRVROOT "D:\Apache24"和ServerRoot "D:\Apache24"`，保存。
  5. 运行命令`httpd.exe`，检测是否安装成功：在浏览器中访问http://localhost，看是否出现测试界面。
  6. 安装服务运行命令`httpd -k install`，成功后就可以啦。
  7. 其他命令：
