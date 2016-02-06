@@ -21,7 +21,11 @@ highlighter:           rouge
 
 # Outputting
 permalink:             /:year/:title/
+<<<<<<< HEAD
 #relative_permalinks:   true
+=======
+relative_permalinks:   true
+>>>>>>> parent of 429a4a2... update
 paginate_path:         /page:num/
 paginate:              5
 timezone:              Asia/Beijing
