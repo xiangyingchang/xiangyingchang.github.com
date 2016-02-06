@@ -32,12 +32,12 @@ baseurl:               "" # does not include hostname
 url:                   http://xiangyingchang.com
 
 # Site settings
-title:                 向应昌kally
+title:                 向应昌
 description:           "Good things take time and patience."
 icon:                  "/assets/img/m-icon-white-on-blue.png"
 header_image:          "/assets/img/home-bg.jpg"
 author:
-  name:                向应昌kally
+  name:                向应昌
   url:                 http://goo.gl/NNDGA8
   email:               lovecvoice@gmail.com
   twitter:             xiangyingchang
@@ -48,4 +48,4 @@ author:
   facebook:            lovecvoice
 ga_trackid:            "UA-60129317-1"
 fb_admins:             
-disqus_shortname:      向应昌kally
+disqus_shortname:      向应昌
