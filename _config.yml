@@ -17,8 +17,7 @@ gems:
 
 # Conversion 
 markdown:              kramdown
-highlighter:           pygments
-
+highlighter:           rough
 # Outputting
 permalink:             /:year/:title/
 paginate_path:         /page:num/
