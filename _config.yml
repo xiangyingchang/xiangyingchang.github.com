@@ -22,7 +22,7 @@ highlighter:           rouge
 # Outputting
 permalink:             /:title/
 paginate_path:         /page:num/
-paginate:              5
+paginate:              50
 timezone:              Asia/Beijing
 locale:                en_us
 
