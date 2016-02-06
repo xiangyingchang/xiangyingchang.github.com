@@ -21,7 +21,6 @@ highlighter:           pygments
 
 # Outputting
 permalink:             /:year/:title/
-relative_permalinks:   true
 paginate_path:         /page:num/
 paginate:              5
 timezone:              Asia/Kathmandu
