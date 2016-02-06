@@ -20,8 +20,7 @@ markdown:              kramdown
 highlighter:           rouge
 
 # Outputting
-permalink:             /:year/:title/
-relative_permalinks:   true
+permalink:             /:title/
 paginate_path:         /page:num/
 paginate:              5
 timezone:              Asia/Beijing
