@@ -12,12 +12,12 @@ permalink: /archives/
   {% for post in site.posts %}
 
     {% unless post.next %}
-      <h3 class="section-heading">{{ post.date | date: "%Y-%m-%-d" }}</h3>
+      <h3 class="section-heading">{{ post.date | date: '%Y' }}</h3>
     {% else %}
-      {% capture year %}{{ post.date | date: "%Y-%m-%-d" }}{% endcapture %}
-      {% capture nyear %}{{ post.date | date: "%Y-%m-%-d" }}{% endcapture %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
-        <h3 class="section-heading">{{ post.date | date: "%Y-%m-%-d" }}</h3>
+        <h3 class="section-heading">{{ post.date | date: '%Y' }}</h3>
       {% endif %}
     {% endunless %}
 
