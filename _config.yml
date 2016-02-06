@@ -5,7 +5,7 @@
 # ----------------------------------------------------------------------
 
 encoding:      "utf-8"
-timezone:      Asia/Kathmandu
+timezone:      Asia/Beijing
 locale:        en_us
 markdown:      kramdown
 kramdown:
@@ -16,7 +16,7 @@ highlighter:   pygments
 permalink:     /:year/:title/
 
 paginate_path: /writings/page:num/
-paginate:      10
+paginate:      50000000
 
 # Collections
 collections:
