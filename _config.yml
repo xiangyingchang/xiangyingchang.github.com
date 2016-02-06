@@ -1,33 +1,78 @@
 # Jekyll config file http://jekyllrb.com/docs/configuration/
 
-# Handling reading
-exclude:               
-  -                    README.md
-  -                    LICENSE
-  -                    CNAME
-  -                    Gemfile
-encoding:              "utf-8"
+# ----------------------------------------------------------------------
+# | Build settings                                                     |
+# ----------------------------------------------------------------------
+
+encoding:      "utf-8"
+timezone:      Asia/Kathmandu
+locale:        en_us
+markdown:      kramdown
+kramdown:
+  toc_levels:  1..3
+highlighter:   pygments
+
+# Permalink structure, see http://jekyllrb.com/docs/permalinks/
+permalink:     /:year/:title/
+
+paginate_path: /writings/page:num/
+paginate:      10
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: "true"
+  -
+    scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+      comments: "false"
+
+# Files to exclude
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - src
+  - node_modules
+  - package.json
+  - Gruntfile.js
+  - vendor
+  - bower.json
 
 # Plugins
-gems:                  
-  -                    jekyll-mentions
-  -                    jemoji
-  -                    jekyll-redirect-from
-  -                    jekyll-sitemap
+gems:
+  - jekyll-feed
+#  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
 
-# Conversion 
-markdown:              kramdown
-highlighter:           rouge
+# jekyll-mentions:
+#  base_url: https://twitter.com
 
-# Outputting
-permalink:             /:title/
-paginate_path:         /page:num/
-paginate:              5000000000
-timezone:              Asia/Beijing
-locale:                en_us
+# Compress HTML
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  profile: false
 
-# Serving
-baseurl:               "" # does not include hostname
 
 # URL of site, include http://, do not include a trailing slash
 url:                   http://xiangyingchang.com
