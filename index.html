@@ -1,14 +1,12 @@
 ---
 layout: page
-description: "Livin' on the edge of web standards."
-permalink: /
+description: "30 dienų gali pakeisti tavo gyvenimą. Pradėk keistis jau šiandien!"
 ---
 
 {% for post in paginator.posts %}
 <div class="post-preview">
-    <a href="{{ post.url }}">
-        <h2 class="post-title">
-            {{ post.title }}
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -16,7 +14,7 @@ permalink: /
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ post.date | date_to_rfc822 }}">{{ post.date | date: "%B %-d, %Y" }}</time> &middot; <span data-toggle="tooltip" data-placement="bottom" title="{{ post.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time_paginator.html %}</span></p>
+    <p class="post-meta">Paskelbta <!-- {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}--> {{ post.date | date: "%Y-%m-%-d" }}</p>
 </div>
 <hr>
 {% endfor %}
@@ -26,12 +24,12 @@ permalink: /
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | replace: '//', '/' }}"><i class="fa fa-angle-double-left"></i> Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Naujesni</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Older Posts <i class="fa fa-angle-double-right"></i></a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Senesni &rarr;</a>
     </li>
     {% endif %}
 </ul>
