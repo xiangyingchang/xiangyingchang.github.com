@@ -1,6 +1,6 @@
 ---
 layout: page
-description: "Good things take time and patience."
+description: "Livin' on the edge of web standards."
 permalink: /
 ---
 
@@ -8,8 +8,8 @@ permalink: /
 <div class="post-preview">
     <a href="{{ post.url }}">
         <h2 class="post-title">
-			{{ post.title }}
-		</h2>
+            {{ post.title }}
+        </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
             {{ post.subtitle }}
@@ -26,12 +26,12 @@ permalink: /
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | replace: '//', '/' }}"><i class="fa fa-angle-double-left"></i> 上一页</a>
+        <a href="{{ paginator.previous_page_path | replace: '//', '/' }}"><i class="fa fa-angle-double-left"></i> Newer Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | replace: '//', '/' }}">下一页 <i class="fa fa-angle-double-right"></i></a>
+        <a href="{{ paginator.next_page_path | replace: '//', '/' }}">Older Posts <i class="fa fa-angle-double-right"></i></a>
     </li>
     {% endif %}
 </ul>
