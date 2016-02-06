@@ -17,7 +17,7 @@ gems:
 
 # Conversion 
 markdown:              kramdown
-highlighter:           pygments
+highlighter:           rouge
 
 # Outputting
 permalink:             /:year/:title/
