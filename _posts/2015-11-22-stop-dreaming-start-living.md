@@ -2,7 +2,7 @@
 layout: post
 title: Stop Dreaming,Start Living
 ---
-<center>![](http://i.imgur.com/Fk2cxiM.jpg)</center>
+<center><img src="http://i.imgur.com/Fk2cxiM.jpg"/></center>
 没有想过《白日梦想家 The Secret Life of Walter Mitty (2013)》其实是一部喜剧，打开它之前内心是严肃而认真的，Jee Xin说这是一部“能让天天很闲的你找到事情做，远离宅男状态。知道自己年轻是多么值钱。”的电影。
 
 可能是最近太过于沉重，抑或是生活中不明觉厉的压力，要不是之前有朋友力荐这部电影，我甚至没有耐心看完它的前半部分：一个在《Life》杂志地下室工作了16年的人，像是一个生活的旁观者，虽和心仪的女神在同一个公司，却无法开口搭讪。经常性的“走神”，幻想自己在某个场景里上演英雄救美的好戏、幻想与自己的上司大打出手勇敢无畏...
