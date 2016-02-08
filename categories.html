@@ -1,9 +1,6 @@
 ---
 title: Categories
 layout: page
-
-redirect_from: /categories/
-permalink: /categories/
 ---
 
 <div id='tag_cloud'>
@@ -12,11 +9,11 @@ permalink: /categories/
 {% endfor %}
 </div>
 
-<ul class="archives">
+<ul class="row">
 {% for cat in site.categories %}
-  <!--<li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>-->
+  <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% for post in cat[1] %}
-  <li class="row">
+  <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
  <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
@@ -24,3 +21,14 @@ permalink: /categories/
 {% endfor %}
 </ul>
 
+<script src="/media/js/jquery.tagcloud.js" type="text/javascript" charset="utf-8"></script> 
+<script language="javascript">
+$.fn.tagcloud.defaults = {
+    size: {start: 1, end: 1, unit: 'em'},
+      color: {start: '#f8e0e6', end: '#ff3333'}
+};
+
+$(function () {
+    $('#tag_cloud a').tagcloud();
+});
+</script>
