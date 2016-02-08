@@ -15,8 +15,8 @@ layout: page
 {% for post in cat[1] %}
   <li class="listing-item">
   <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
- <div class="col-sm-9">
-            <a href="{{ post.url }}">{{ post.title }}</a>
+ <div class="col-sm-3 text-muted">
+            <time>{{ post.date | date: "%Y-%m-%d" }}</time>
         </div>
   </li>
 {% endfor %}
