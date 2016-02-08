@@ -20,8 +20,7 @@ permalink: /archives/
   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
 {% for post in cat[1] %}
   <li class="listing-item">
-  <div class="col-sm-3 text-muted">
-  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time></div>
+  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
   <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
@@ -30,7 +29,7 @@ permalink: /archives/
 
 
 
-<ul class="archives">
+<!--<ul class="archives">
   {% for post in site.posts %}
 
     {% unless post.next %}
@@ -53,4 +52,4 @@ permalink: /archives/
     </li>
 
   {% endfor %}
-</ul>
+</ul>-->
