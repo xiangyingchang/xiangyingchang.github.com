@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Stop Dreaming,Start Living
+categories:
+- 影音书
 ---
 <center><img src="http://i.imgur.com/Fk2cxiM.jpg"/></center>
 
