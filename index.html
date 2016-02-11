@@ -23,11 +23,11 @@ description: "Good things take time and patience."
     {% endif %}-->
 
 {% for cat in site.categories %}
-<a href="/1-categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+<a href="/1-categories/#{{ cat[0] }}" id="{{ cat[0] ">{{ cat[0] }} ({{ cat[1].size }})</a>
 {% endfor %}
 
     {{ post.date | date: "%Y-%m-%-d" }}
-    
+
    {% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>{% endfor %}
     </p>
