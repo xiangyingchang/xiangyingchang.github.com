@@ -14,8 +14,15 @@ description: "Good things take time and patience."
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Date {% if page.categories %}<a href="/1-categories/#{{ page.categories }}" title="{{ page.categories }}">{{ page.categories }}</a>{% endif %}{{ post.date | date: "%Y-%m-%-d" }}</p>
-    
+    <p class="post-meta">Date
+     
+    {% if post.author %}
+    {{ post.author }}
+    {% else %}
+    {{ site.title }}
+    {% endif %}
+
+    {{ post.date | date: "%Y-%m-%-d" }}</p>
     {% if page.categories %}
 <span class="post-meta">
   in categories
