@@ -15,11 +15,15 @@ description: "Good things take time and patience."
         {% endif %}
     </a>
     <p class="post-meta">Date
-     
-    {% if post.author %}
-    {{ post.author }}
-    {% else %}
+
+    {% if post.author %}   {% if page.categories %}
+    {{ post.author }}      {{ page.categories }}
+    {% else %}              
     {{ site.title }}
+    {% endif %}
+
+    {% if page.categories %}
+    {{ page.categories }}
     {% endif %}
 
     {{ post.date | date: "%Y-%m-%-d" }}</p>
