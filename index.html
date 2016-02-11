@@ -21,8 +21,9 @@ description: "Good things take time and patience."
     {% else %}              
     {{ site.title }}
     {% endif %}-->
-
-
+{% for cat in site.categories %}
+  <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
+{% endfor %}
    
 </div>
 <hr>
