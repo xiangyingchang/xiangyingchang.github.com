@@ -27,7 +27,9 @@ description: "Good things take time and patience."
 {% endfor %}
 
     {{ post.date | date: "%Y-%m-%-d" }}
-    {{ page.categories }}
+    
+   {% for cat in site.categories %}
+  <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
     </p>
 
    
