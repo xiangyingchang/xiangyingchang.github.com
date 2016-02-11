@@ -27,7 +27,7 @@ description: "Good things take time and patience."
 <ul class="archives">
 {% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
-{% for post in cat[1] %}
+<!--{% for post in cat[1] %}
   <li class="row">
         <div class="col-sm-9">
             <a href="{{ post.url }}">{{ post.title }}</a>
@@ -36,7 +36,7 @@ description: "Good things take time and patience."
             <time>{{ post.date | date: "%Y-%m-%d" }}</time>
         </div>
     </li>
-{% endfor %}
+{% endfor %}-->
 {% endfor %}
 </ul>
 
