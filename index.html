@@ -22,9 +22,7 @@ description: "Good things take time and patience."
     {{ site.title }}
     {% endif %}-->
 {% if site.categories %}
-    {% for cat in site.categories %}
 <a href="/1-categories/#{{ cat }}" title="{{ cat}}">{{ cat}} </a>
-{% endfor %}
 {% endif %}
 
     {{ post.date | date: "%Y-%m-%-d" }}</p>
