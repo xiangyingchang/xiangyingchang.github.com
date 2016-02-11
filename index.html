@@ -31,10 +31,10 @@ description: "Good things take time and patience."
 {% endfor %}
 </ul>
 
-{% if page.categories %}
+{% if site.categories %}
 <span class="categories">
   in categories
-  {% for cat in page.categories %}
+  {% for cat in site.categories %}
   <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
 </span>
