@@ -27,7 +27,7 @@ description: "Good things take time and patience."
 
 <ul class="archives">
 {% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat }}">{{ cat }}</li>
+  <li id="{{ cat[0] }}">{{ cat[0] }}</li>
 {% endfor %}
 </ul>
 
