@@ -60,11 +60,10 @@ li {list-style:none;}
 </div>
 
 <div id="menu">
-<h2>Menu</h2>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-<li>JavaScript</li>
+<ul class="archives">
+{% for cat in site.categories %}
+  <li class="listing-seperator" id="{{ cat[0] }}"><a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a></li>
+{% endfor %}
 </ul>
 </div>
 
