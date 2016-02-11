@@ -27,6 +27,10 @@ description: "Good things take time and patience."
 
     {{ post.date | date: "%Y-%m-%-d" }}
     {{ site.categories }}</p>
+
+    {% for cat in page.categories %}
+  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  {% endfor %}
    
 </div>
 <hr>
