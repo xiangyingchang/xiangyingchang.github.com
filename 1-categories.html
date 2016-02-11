@@ -6,9 +6,9 @@ description: "Not categories, but the ability to discern categories."
 
 
 
-<li  class="post-meta">{% for cat in site.categories %}
+<ur  class="post-meta">{% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
-{% endfor %}</li>
+{% endfor %}</ur>
 <ul class="archives">
 <!--{% for cat in site.categories %}
 <br>
