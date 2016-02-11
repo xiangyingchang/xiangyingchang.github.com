@@ -11,9 +11,7 @@ description: "Not categories, but the ability to discern categories."
 {% endfor %}</p>
 
 {% for cat in site.categories %}
-<br>
   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
-{% for post in cat[1] %}
 {% endfor %}
 
 <ul class="archives">
