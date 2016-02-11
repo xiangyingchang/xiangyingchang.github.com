@@ -22,11 +22,10 @@ description: "Good things take time and patience."
     {{ site.title }}
     {% endif %}-->
 {% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
+  <li class="listing-seperator" id="{{ cat }}"><b>{{ cat}}</b></li>
 {% endfor %}
-   
-   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ site.categories }}</b></li>
-   
+
+
 </div>
 <hr>
 {% endfor %}
