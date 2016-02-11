@@ -14,7 +14,7 @@ description: "Good things take time and patience."
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Date
+    <p class="post-meta">Date{{ post.date | date: "%Y-%m-%-d" }}</p>
 
     <!--{% if post.author %} 
     {{ post.author }}      
@@ -22,15 +22,6 @@ description: "Good things take time and patience."
     {{ site.title }}
     {% endif %}-->
 
-{{ post.date | date: "%Y-%m-%-d" }}
-
-
-
-    
-   {% for cat in site.categories %}
-  <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
- {% endfor %}
-    </p>
 
    
 </div>
