@@ -5,19 +5,21 @@ description: "Not categories, but the ability to discern categories."
 ---
 
 
-
+<!--文章归档，横排-->
 <!--<p class="post-meta">{% for cat in site.categories %}
 <a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
 {% endfor %}</p>-->
 
+<!--文章归档，竖排-->
 <ul class="archives">
 {% for cat in site.categories %}
   <li class="listing-seperator" id="{{ cat[0] }}"><a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a></li>
 {% endfor %}
 </ul>
 
+<!--文章，竖排-->
 <ul class="archives">
-<!--{% for cat in site.categories %}
+{% for cat in site.categories %}
 <br>
   <li class="listing-seperator" id="{{ cat[0] }}"><b>{{ cat[0] }}</b></li>
 {% for post in cat[1] %}
@@ -30,5 +32,5 @@ description: "Not categories, but the ability to discern categories."
         </div>
     </li>
 {% endfor %}
-{% endfor %}-->
+{% endfor %}
 </ul>
