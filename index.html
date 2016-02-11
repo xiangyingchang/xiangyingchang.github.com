@@ -16,6 +16,10 @@ description: "Good things take time and patience."
     </a>
     <p class="post-meta">Date<!-- {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %}--> {{ post.date | date: "%Y-%m-%-d" }}</p>
 
+    <p class="post-meta">{% for cat in site.categories %}
+<a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>
+{% endfor %}</p>
+
 
 
 </div>
