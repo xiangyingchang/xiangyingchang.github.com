@@ -21,7 +21,7 @@ description: "Good things take time and patience."
     {% else %}              
     {{ site.title }}
     {% endif %}-->
-{% if page.categories %}
+{% if site.categories %}
     {% for cat in site.categories %}
 <a href="/1-categories/#{{ cat }}" title="{{ cat}}">{{ cat}} </a>
 {% endfor %}
