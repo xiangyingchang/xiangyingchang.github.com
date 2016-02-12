@@ -16,12 +16,12 @@ layout: default
                     <div class="meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ page.date | date_to_rfc822 }}">{{ page.date | date: "%Y-%m-%-d" }}</time> &middot; 
                     <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}</span><br>
                     {% if page.categories %}
-<span class="post-meta">
+<p class="post-meta">
   in categories
   {% for cat in page.categories %}
   <a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
-</span>
+</p>
 {% endif %}
                     </div>
                 </div>
@@ -43,17 +43,16 @@ layout: default
 				
 				{% include social.html %}
 
-<span class="license">
-  Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
-</span>
+<p class="post-meta">Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
+</p>
 
 {% if page.categories %}
-<span class="post-meta">
+<p class="post-meta">
   in categories
   {% for cat in page.categories %}
   <a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
-</span>
+</p>
 {% endif %}
                 <hr>
 
