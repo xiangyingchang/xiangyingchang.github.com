@@ -22,7 +22,7 @@ description: "Good things take time and patience."
     {{ site.title }}
     {% endif %}-->
 <p class="post-meta">{% for cat in site.categories %}
-<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[0].size }}">{{ cat[0] }} ({{ cat[0].size }})</a>
+<a href="/1-categories/#{{ cat }}" title="{{ cat}}" rel="{{ cat[0].size }}">{{ cat }} ({{ cat.size }})</a>
 {% endfor %}</p>
 
 
