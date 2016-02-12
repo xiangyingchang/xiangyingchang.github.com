@@ -22,8 +22,13 @@ description: "Good things take time and patience."
     {{ site.title }}
     {% endif %}-->
 <p class="post-meta">{% for cat in site.categories %}
-<a href="/1-categories/#{{ cat }}" title="{{ cat}}" rel="{{ cat[0].size }}">{{ cat }} ({{ cat.size }})</a>
+<a href="/1-categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
 {% endfor %}</p>
+
+<p class="post-meta">{% if site.categories %}
+<a href="/1-categories/#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }} ({{ cat[1].size }})</a>
+{% endif %}</p>
+
 
 
 {{ site.categories }}
