@@ -12,7 +12,18 @@ layout: default
                     {% if page.subtitle %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     {% endif %}
-                    <div class="meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ page.date | date_to_rfc822 }}">{{ page.date | date: "%Y-%m-%-d" }}</time> &middot; <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}</span></div>
+
+                    <div class="meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ page.date | date_to_rfc822 }}">{{ page.date | date: "%Y-%m-%-d" }}</time> &middot; 
+                    <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}</span>
+                    {% if page.categories %}
+<span class="categories">
+  in categories
+  {% for cat in page.categories %}
+  <a href="/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  {% endfor %}
+</span>
+{% endif %}
+                    </div>
                 </div>
             </div>
         </div>
@@ -31,7 +42,7 @@ layout: default
 				</div>
 				
 				{% include social.html %}
-                
+
 {% if page.categories %}
 <span class="categories">
   in categories
