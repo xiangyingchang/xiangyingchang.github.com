@@ -14,7 +14,7 @@ layout: default
                     {% endif %}
 
                     <div class="meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ page.date | date_to_rfc822 }}">{{ page.date | date: "%Y-%m-%-d" }}</time> &middot; 
-                    <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}</span><br>
+                    <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}</span>
                     {% if page.categories %}
 <p class="post-meta">
   in categories
@@ -44,16 +44,13 @@ layout: default
 				{% include social.html %}
 
 <p class="post-meta">Published under <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">(CC) BY-NC-SA</a>
-</p>
-
 {% if page.categories %}
-<p class="post-meta">
   in categories
   {% for cat in page.categories %}
   <a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
   {% endfor %}
-</p>
 {% endif %}
+</p>
                 <hr>
 
                 <ul class="pager">
