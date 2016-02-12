@@ -76,3 +76,5 @@ Stop Dreaming , Start Living !
 
 向应昌<br>
 2015/11/22
+
+<center><img src="http://i.imgur.com/v85NzKV.jpg"></center>
