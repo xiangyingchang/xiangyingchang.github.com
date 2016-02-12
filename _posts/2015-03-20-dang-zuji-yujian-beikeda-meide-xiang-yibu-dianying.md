@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 当北科大遇见足记·美得像一部电影
+categories:
+- 人生旅途
 ---
 <center></center>
 <center><img src="http://i.imgur.com/EfFOHQH.jpg"/></center>
