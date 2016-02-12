@@ -14,11 +14,11 @@ layout: default
                     {% endif %}
 
                     <div class="meta"><p class="post-meta"><time data-toggle="tooltip" data-placement="bottom" title="{{ page.date | date_to_rfc822 }}">{{ page.date | date: "%Y-%m-%-d" }}</time> &middot; 
-                    <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}
+                   <!-- <span data-toggle="tooltip" data-placement="bottom" title="{{ page.content | strip_html | number_of_words | append: ' words'}}">{% include reading_time.html %}-->
 {% if page.categories %}
   in categories
   {% for cat in page.categories %}
-  <a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;
+  <a href="/1-categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>;
   {% endfor %}
 </p>
 {% endif %}</span>
