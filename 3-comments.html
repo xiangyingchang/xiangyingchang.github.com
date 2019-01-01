@@ -11,6 +11,9 @@ header_image: "/assets/img/about-bg.jpg"
 <!-- Gitalk 评论 start  -->
 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script> 
+<!-- 引入一个生产md5的js，用于对id值进行处理，防止其过长 -->
+<!-- Thank DF:https://github.com/NSDingFan/NSDingFan.github.io/issues/3#issuecomment-407496538 -->
+<script src="{{ site.baseurl }}/js/md5.min.js"></script>
 <div id="gitalk-container"></div>     <script type="text/javascript">
     var gitalk = new Gitalk({
         clientID: '38cde5a093c3829701f7',
@@ -18,7 +21,7 @@ header_image: "/assets/img/about-bg.jpg"
         repo: 'xiangyingchang.github.com',
         owner: 'xiangyingchang',
         admin: 'xiangyingchang',
-        id: 'window.location.hash',
+        id: md5(location.pathname),
         distractionFreeMode: true
     });
     gitalk.render('gitalk-container');
