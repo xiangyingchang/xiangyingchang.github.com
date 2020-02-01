@@ -94,6 +94,7 @@ Rule:
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
   - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,xqimg.imedao.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
   - DOMAIN,dl.google.com,🎯 全球直连
   - DOMAIN,mtalk.google.com,🎯 全球直连
@@ -9736,7 +9737,6 @@ Rule:
   - DOMAIN-SUFFIX,tmall.hk,🎯 全球直连
   - DOMAIN-SUFFIX,ykimg.com,🎯 全球直连
   - DOMAIN-SUFFIX,youku.com,🎯 全球直连
-  - DOMAIN-SUFFIX,xueqiu.com,🎯 全球直连
   - DOMAIN-SUFFIX,xiami.com,🎯 全球直连
   - DOMAIN-SUFFIX,xiami.net,🎯 全球直连
   - DOMAIN-SUFFIX,aaplimg.com,🎯 全球直连
