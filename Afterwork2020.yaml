@@ -16,7 +16,6 @@ Rule:
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
-  - DOMAIN-KEYWORD,qq.com,🎯 全球直连
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
@@ -94,6 +93,10 @@ Rule:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+  # 微信、qq视频
+  - DOMAIN,mp.weixin.qq.com,🎯 全球直连
+  - DOMAIN,v.qq.com,🎯 全球直连
+  # 雪球
   - DOMAIN,app.adjust.com,🎯 全球直连
   - DOMAIN,xqimg.imedao.com,🎯 全球直连
   - DOMAIN,xavatar.imedao.com,🎯 全球直连
@@ -10351,3 +10354,13 @@ Proxy Group:
       - 'Basic|香港-V2Ray09|2.0|NF*'
       - 'Basic|香港-V2Ray10|2.0|NF*'
       - 'Basic|香港-V2Ray11|2.0|NF*'
+
+# DOMAIN-SUFFIX：域名后缀匹配
+# DOMAIN：域名匹配
+# DOMAIN-KEYWORD：域名关键字匹配
+# IP-CIDR：IP段匹配
+# SRC-IP-CIDR：源IP段匹配
+# GEOIP：GEOIP数据库（国家代码）匹配
+# DST-PORT：目标端口匹配
+# SRC-PORT：源端口匹配
+# MATCH：全匹配（一般放在最后）
