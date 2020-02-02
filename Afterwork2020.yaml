@@ -16,6 +16,7 @@ Rule:
   - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
   - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
   - DOMAIN-KEYWORD,1drv,Ⓜ️ 微软服务
+  - DOMAIN-KEYWORD,qq.com,🎯 全球直连
   - DOMAIN-SUFFIX,aadrm.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,acompli.net,Ⓜ️ 微软服务
@@ -94,7 +95,6 @@ Rule:
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
   - DOMAIN,app.adjust.com,🎯 全球直连
-  - DOMAIN,v.qq.com,🎯 全球直连
   - DOMAIN,xqimg.imedao.com,🎯 全球直连
   - DOMAIN,xavatar.imedao.com,🎯 全球直连
   - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
