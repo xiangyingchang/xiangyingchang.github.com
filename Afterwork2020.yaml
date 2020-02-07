@@ -93,6 +93,10 @@ Rule:
   - DOMAIN-SUFFIX,wunderlist.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammer.com,Ⓜ️ 微软服务
   - DOMAIN-SUFFIX,yammerusercontent.com,Ⓜ️ 微软服务
+  # 阿里巴巴
+  - DOMAIN-SUFFIX,symantecliveupdate.com,🎯 全球直连
+  - DOMAIN-SUFFIX,symantec.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hz.ali.com,🎯 全球直连
   # 微信、qq视频
   - DOMAIN,mp.weixin.qq.com,🎯 全球直连
   - DOMAIN,v.qq.com,🎯 全球直连
