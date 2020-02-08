@@ -22,12 +22,6 @@
             </li>
 
             <li>
-                <a href="#" data-type="instagram" data-url="{{ page.url | prepend: site.url }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" data-media="{% if page.image %}{{ page.image }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}" class="social" title="Instagram" data-toggle="tooltip" data-placement="bottom">
-                    <span class="fa-stack fa-lg"><i class="fa fa-instagram fa-stack-2x"></i></span>
-                </a>
-            </li>
-
-            <li>
                 <a href="#" data-type="linkedin" data-url="{{ page.url | prepend: site.url }}" data-title="{{ page.title }}" data-description="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}" data-via="{{ site.author.linkedin }}" data-media="{% if page.image %}{{ page.image }}{% else %}{{ site.icon | prepend: site.url }}{% endif %}" class="social" title="Share on LinkedIn" data-toggle="tooltip" data-placement="bottom">
                     <span class="fa-stack fa-lg"><i class="fa fa-linkedin fa-stack-1x"></i></span>
                 </a>
