@@ -75,7 +75,7 @@ compress_html:
 
 
 # URL of site, include http://, do not include a trailing slash
-url:                   http://xiangyingchang.com
+url:                   https://xiangyingchang.github.io/
 
 # Site settings
 title:                 下班后的四小时
