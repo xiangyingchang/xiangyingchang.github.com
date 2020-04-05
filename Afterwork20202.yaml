@@ -190,7 +190,7 @@ Proxy Group:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-        - 'Advanced|新加坡1|2.0|NF*'
+      - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
@@ -283,7 +283,7 @@ Proxy Group:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-        - 'Advanced|新加坡1|2.0|NF*'
+      - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
@@ -375,7 +375,7 @@ Proxy Group:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-        - 'Advanced|新加坡1|2.0|NF*'
+      - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
@@ -467,7 +467,7 @@ Proxy Group:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-        - 'Advanced|新加坡1|2.0|NF*'
+      - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
@@ -559,93 +559,7 @@ Proxy Group:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-        - 'Advanced|新加坡1|2.0|NF*'
-    - 'Advanced|日本01|2.0|NF*'
-    - 'Advanced|日本02|2.0|NF*'
-    - 'Advanced|日本03|2.0|NF*'
-    - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
-    - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
-    - 'Advanced|香港01|3.0|NF*'
-    - 'Advanced|香港02|3.0|NF*'
-    - 'Advanced|香港03|3.0|NF*'
-    - 'Advanced|香港04|3.0|NF*'
-    - 'Advanced|香港05|3.0|NF*'
-    - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
-    - 'Advanced|香港09|3.0|NF*'
-    - 'Advanced|香港10|3.0|NF*'
-    - 'Advanced|香港11|3.0|NF*'
-    - 'Advanced|香港12|3.0|NF*'
-    - 'Basic|台湾1|1.0|NF*'
-    - 'Basic|台湾2|1.0|NF*'
-    - 'Basic|台湾3|1.0|NF*'
-    - 'Basic|台湾4|1.0|NF*'
-    - 'Basic|日本1|2.0|NF*'
-    - 'Basic|日本2|2.0|NF*'
-    - 'Basic|美国1|2.0|NF*'
-    - 'Basic|美国2|2.0|NF*'
-    - 'Basic|韩国1|2.0|NF*'
-    - 'Basic|香港01|1.0|NF*'
-    - 'Basic|香港02|1.0|NF*'
-    - 'Basic|香港03|1.0|NF*'
-    - 'Basic|香港04|1.0|NF*'
-    - 'Basic|香港05|1.0|NF*'
-    - 'Basic|香港06|1.0|NF*'
-    - 'Basic|香港07|1.0|NF*'
-    - 'Basic|香港08|1.0|NF*'
-    - 'Basic|香港09|1.0|NF*'
-    - 'Basic|香港10|1.0|NF*'
-    - Special|日本|1.0|续费专用
-    - '[V2]Basic|香港01|2.0|NF*'
-    - '[V2]Basic|香港02|2.0|NF*'
-    - '[V2]Basic|香港03|2.0|NF*'
-    - '[V2]Basic|香港04|2.0|NF*'
-    - '[V2]Basic|香港05|2.0|NF*'
-    - '[V2]Basic|香港06|2.0|NF*'
-    - '[V2]Basic|香港07|2.0|NF*'
-    - '[V2]Basic|香港08|2.0|NF*'
-    - '[V2]Basic|香港09|2.0|NF*'
-    - '[V2]Basic|香港10|2.0|NF*'
+      - t.me/s/woyaofq
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -666,7 +580,7 @@ Proxy Group:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-        - 'Advanced|新加坡1|2.0|NF*'
+      - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
