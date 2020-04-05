@@ -98,7 +98,7 @@ Proxy Group:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-        - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡1|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
