@@ -5,65 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 Proxy:
-  - {"name":"Advanced|新加坡1|2.0|NF*","type":"ss","server":"microsoftsgp1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|新加坡1|2.0|NF*","type":"ss","server":"az-sgp-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|新加坡2|2.0|NF*","type":"ss","server":"az-sgp-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|日本01|2.0|NF*","type":"ss","server":"az-jp-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|日本02|2.0|NF*","type":"ss","server":"az-jp-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|日本03|2.0|NF*","type":"ss","server":"az-jp-3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|日本04|2.0|NF*","type":"ss","server":"az-jp-4.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|澳大利亚1|2.0|NF*","type":"ss","server":"relay-az-aus-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国01|4.0|NF*","type":"ss","server":"usgia1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国02|4.0|NF*","type":"ss","server":"usgia7.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国03|4.0|NF*","type":"ss","server":"usgia13.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国04|4.0|NF*","type":"ss","server":"usgia19.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国05|4.0|NF*","type":"ss","server":"usgia25.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国06|4.0|NF*","type":"ss","server":"usgia31.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国07|4.0|NF*","type":"ss","server":"usgia2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国08|4.0|NF*","type":"ss","server":"usgia8.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国09|4.0|NF*","type":"ss","server":"usgia14.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国10|4.0|NF*","type":"ss","server":"usgia20.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国11|4.0|NF*","type":"ss","server":"usgia26.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国12|4.0|NF*","type":"ss","server":"usgia32.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国13|4.0|NF*","type":"ss","server":"usgia3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国14|4.0|NF*","type":"ss","server":"usgia9.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国15|4.0|NF*","type":"ss","server":"usgia15.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国16|4.0|NF*","type":"ss","server":"usgia21.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国17|4.0|NF*","type":"ss","server":"usgia27.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国18|4.0|NF*","type":"ss","server":"usgia33.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国19|4.0|NF*","type":"ss","server":"usgia4.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国20|4.0|NF*","type":"ss","server":"usgia10.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国21|4.0|NF*","type":"ss","server":"usgia16.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国22|4.0|NF*","type":"ss","server":"usgia22.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国23|4.0|NF*","type":"ss","server":"usgia28.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国24|4.0|NF*","type":"ss","server":"usgia34.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国25|4.0|NF*","type":"ss","server":"usgia5.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国26|4.0|NF*","type":"ss","server":"usgia11.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国27|4.0|NF*","type":"ss","server":"usgia17.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国28|4.0|NF*","type":"ss","server":"usgia23.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国29|4.0|NF*","type":"ss","server":"usgia29.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国30|4.0|NF*","type":"ss","server":"usgia35.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国31|4.0|NF*","type":"ss","server":"usgia6.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国32|4.0|NF*","type":"ss","server":"usgia12.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国33|4.0|NF*","type":"ss","server":"usgia18.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国34|4.0|NF*","type":"ss","server":"usgia24.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国35|4.0|NF*","type":"ss","server":"usgia30.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|美国36|4.0|NF*","type":"ss","server":"usgia36.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|英国1|2.0|NF*","type":"ss","server":"relay-az-uk-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国01|5.0|NF*","type":"ss","server":"uscn2gia1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国02|5.0|NF*","type":"ss","server":"uscn2gia7.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国03|5.0|NF*","type":"ss","server":"uscn2gia13.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国04|5.0|NF*","type":"ss","server":"uscn2gia19.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国05|5.0|NF*","type":"ss","server":"uscn2gia25.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国06|5.0|NF*","type":"ss","server":"uscn2gia31.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国07|5.0|NF*","type":"ss","server":"uscn2gia2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国08|5.0|NF*","type":"ss","server":"uscn2gia8.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国09|5.0|NF*","type":"ss","server":"uscn2gia14.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国10|5.0|NF*","type":"ss","server":"uscn2gia20.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国11|5.0|NF*","type":"ss","server":"uscn2gia26.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国12|5.0|NF*","type":"ss","server":"uscn2gia32.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国13|5.0|NF*","type":"ss","server":"uscn2gia3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国14|5.0|NF*","type":"ss","server":"uscn2gia9.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国15|5.0|NF*","type":"ss","server":"uscn2gia15.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国16|5.0|NF*","type":"ss","server":"uscn2gia21.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国17|5.0|NF*","type":"ss","server":"uscn2gia27.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国18|5.0|NF*","type":"ss","server":"uscn2gia33.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国19|5.0|NF*","type":"ss","server":"uscn2gia4.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国20|5.0|NF*","type":"ss","server":"uscn2gia10.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国21|5.0|NF*","type":"ss","server":"uscn2gia16.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国22|5.0|NF*","type":"ss","server":"uscn2gia22.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国23|5.0|NF*","type":"ss","server":"uscn2gia28.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国24|5.0|NF*","type":"ss","server":"uscn2gia34.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国25|5.0|NF*","type":"ss","server":"uscn2gia5.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国26|5.0|NF*","type":"ss","server":"uscn2gia11.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国27|5.0|NF*","type":"ss","server":"uscn2gia17.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国28|5.0|NF*","type":"ss","server":"uscn2gia23.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国29|5.0|NF*","type":"ss","server":"uscn2gia29.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国30|5.0|NF*","type":"ss","server":"uscn2gia35.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国31|5.0|NF*","type":"ss","server":"uscn2gia6.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国32|5.0|NF*","type":"ss","server":"uscn2gia12.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国33|5.0|NF*","type":"ss","server":"uscn2gia18.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国34|5.0|NF*","type":"ss","server":"uscn2gia24.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国35|5.0|NF*","type":"ss","server":"uscn2gia30.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|美国36|5.0|NF*","type":"ss","server":"uscn2gia36.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|韩国1|2.0|NF*","type":"ss","server":"az-kr-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|韩国2|2.0|NF*","type":"ss","server":"az-kr-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|香港01|3.0|NF*","type":"ss","server":"advanced-hk-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|香港02|3.0|NF*","type":"ss","server":"advanced-hk-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Advanced|香港03|3.0|NF*","type":"ss","server":"advanced-hk-3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|香港04|3.0|NF*","type":"ss","server":"az-hk-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|香港05|3.0|NF*","type":"ss","server":"az-hk-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|香港06|3.0|NF*","type":"ss","server":"az-hk-3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|香港07|2.0|NF*","type":"ss","server":"az-hk-4.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Advanced|香港08|3.0|NF*","type":"ss","server":"advanced-hk-8.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|香港04|3.0|NF*","type":"ss","server":"advanced-hk-8.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|香港05|3.0|NF*","type":"ss","server":"az-hk-5.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Advanced|香港06|3.0|NF*","type":"ss","server":"az-hk-6.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|台湾1|1.0|NF*","type":"ss","server":"twhinet1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|台湾2|1.0|NF*","type":"ss","server":"twhinet2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|台湾3|1.0|NF*","type":"ss","server":"twhinet3.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|台湾4|1.0|NF*","type":"ss","server":"twhinet4.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Basic|日本1|2.0|NF*","type":"ss","server":"jpntt1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Basic|日本2|2.0|NF*","type":"ss","server":"jpntt2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Basic|日本1|2.0|NF*","type":"ss","server":"az-jp-5.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
+  - {"name":"Basic|日本2|2.0|NF*","type":"ss","server":"az-jp-6.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|美国1|2.0|NF*","type":"ss","server":"az-us-1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|美国2|2.0|NF*","type":"ss","server":"az-us-2.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|香港01|1.0|NF*","type":"ss","server":"hkhkt01.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
@@ -76,7 +72,6 @@ Proxy:
   - {"name":"Basic|香港08|1.0|NF*","type":"ss","server":"hkhkt08.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|香港09|1.0|NF*","type":"ss","server":"hkhkt09.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"Basic|香港10|1.0|NF*","type":"ss","server":"hkhkt10.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
-  - {"name":"Special|日本|1.0|续费专用","type":"ss","server":"free1.host-sub.com","port":61188,"cipher":"xchacha20-ietf-poly1305","password":"5gjomkwqhe9","udp":true,"plugin":"obfs","plugin-opts":{"mode":"tls","host":"download.windowsupdate.com"}}
   - {"name":"[V2]Basic|香港01|2.0|NF*","type":"vmess","server":"hkhkt01.host-sub.com","port":156,"uuid":"c34fe5bf-d3d5-3ee5-9762-6042031c63c3","alterId":0,"cipher":"auto","udp":true}
   - {"name":"[V2]Basic|香港02|2.0|NF*","type":"vmess","server":"hkhkt02.host-sub.com","port":156,"uuid":"c34fe5bf-d3d5-3ee5-9762-6042031c63c3","alterId":0,"cipher":"auto","udp":true}
   - {"name":"[V2]Basic|香港03|2.0|NF*","type":"vmess","server":"hkhkt03.host-sub.com","port":156,"uuid":"c34fe5bf-d3d5-3ee5-9762-6042031c63c3","alterId":0,"cipher":"auto","udp":true}
@@ -94,58 +89,54 @@ Proxy Group:
     - ♻️ 自动选择
     - 🎯 全球直连
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -164,7 +155,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -181,58 +171,54 @@ Proxy Group:
     interval: 300
     proxies:
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -251,7 +237,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -269,58 +254,54 @@ Proxy Group:
     - ♻️ 自动选择
     - 🎯 全球直连
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -339,7 +320,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -353,66 +333,62 @@ Proxy Group:
   - name: 🌏 国内媒体
     type: select
     proxies:
-    - 🎯 全球直连
-    - 🔰 节点选择
+      - 🎯 全球直连
+      - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
     - 🎯 全球直连
     - 🔰 节点选择
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -431,7 +407,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -448,58 +423,54 @@ Proxy Group:
     - 🔰 节点选择
     - 🎯 全球直连
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -518,7 +489,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -536,58 +506,54 @@ Proxy Group:
     - 🎯 全球直连
     - ♻️ 自动选择
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -606,7 +572,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -620,12 +585,12 @@ Proxy Group:
   - name: 🎯 全球直连
     type: select
     proxies:
-    - DIRECT
+      - DIRECT
   - name: 🛑 全球拦截
     type: select
     proxies:
-    - REJECT
-    - DIRECT
+      - REJECT
+      - DIRECT
   - name: 🐟 漏网之鱼
     type: select
     proxies:
@@ -633,58 +598,54 @@ Proxy Group:
     - 🎯 全球直连
     - ♻️ 自动选择
     - 'Advanced|新加坡1|2.0|NF*'
+    - 'Advanced|新加坡2|2.0|NF*'
     - 'Advanced|日本01|2.0|NF*'
     - 'Advanced|日本02|2.0|NF*'
     - 'Advanced|日本03|2.0|NF*'
     - 'Advanced|日本04|2.0|NF*'
-    - 'Advanced|澳大利亚1|2.0|NF*'
-    - 'Advanced|美国01|4.0|NF*'
-    - 'Advanced|美国02|4.0|NF*'
-    - 'Advanced|美国03|4.0|NF*'
-    - 'Advanced|美国04|4.0|NF*'
-    - 'Advanced|美国05|4.0|NF*'
-    - 'Advanced|美国06|4.0|NF*'
-    - 'Advanced|美国07|4.0|NF*'
-    - 'Advanced|美国08|4.0|NF*'
-    - 'Advanced|美国09|4.0|NF*'
-    - 'Advanced|美国10|4.0|NF*'
-    - 'Advanced|美国11|4.0|NF*'
-    - 'Advanced|美国12|4.0|NF*'
-    - 'Advanced|美国13|4.0|NF*'
-    - 'Advanced|美国14|4.0|NF*'
-    - 'Advanced|美国15|4.0|NF*'
-    - 'Advanced|美国16|4.0|NF*'
-    - 'Advanced|美国17|4.0|NF*'
-    - 'Advanced|美国18|4.0|NF*'
-    - 'Advanced|美国19|4.0|NF*'
-    - 'Advanced|美国20|4.0|NF*'
-    - 'Advanced|美国21|4.0|NF*'
-    - 'Advanced|美国22|4.0|NF*'
-    - 'Advanced|美国23|4.0|NF*'
-    - 'Advanced|美国24|4.0|NF*'
-    - 'Advanced|美国25|4.0|NF*'
-    - 'Advanced|美国26|4.0|NF*'
-    - 'Advanced|美国27|4.0|NF*'
-    - 'Advanced|美国28|4.0|NF*'
-    - 'Advanced|美国29|4.0|NF*'
-    - 'Advanced|美国30|4.0|NF*'
-    - 'Advanced|美国31|4.0|NF*'
-    - 'Advanced|美国32|4.0|NF*'
-    - 'Advanced|美国33|4.0|NF*'
-    - 'Advanced|美国34|4.0|NF*'
-    - 'Advanced|美国35|4.0|NF*'
-    - 'Advanced|美国36|4.0|NF*'
-    - 'Advanced|英国1|2.0|NF*'
+    - 'Advanced|美国01|5.0|NF*'
+    - 'Advanced|美国02|5.0|NF*'
+    - 'Advanced|美国03|5.0|NF*'
+    - 'Advanced|美国04|5.0|NF*'
+    - 'Advanced|美国05|5.0|NF*'
+    - 'Advanced|美国06|5.0|NF*'
+    - 'Advanced|美国07|5.0|NF*'
+    - 'Advanced|美国08|5.0|NF*'
+    - 'Advanced|美国09|5.0|NF*'
+    - 'Advanced|美国10|5.0|NF*'
+    - 'Advanced|美国11|5.0|NF*'
+    - 'Advanced|美国12|5.0|NF*'
+    - 'Advanced|美国13|5.0|NF*'
+    - 'Advanced|美国14|5.0|NF*'
+    - 'Advanced|美国15|5.0|NF*'
+    - 'Advanced|美国16|5.0|NF*'
+    - 'Advanced|美国17|5.0|NF*'
+    - 'Advanced|美国18|5.0|NF*'
+    - 'Advanced|美国19|5.0|NF*'
+    - 'Advanced|美国20|5.0|NF*'
+    - 'Advanced|美国21|5.0|NF*'
+    - 'Advanced|美国22|5.0|NF*'
+    - 'Advanced|美国23|5.0|NF*'
+    - 'Advanced|美国24|5.0|NF*'
+    - 'Advanced|美国25|5.0|NF*'
+    - 'Advanced|美国26|5.0|NF*'
+    - 'Advanced|美国27|5.0|NF*'
+    - 'Advanced|美国28|5.0|NF*'
+    - 'Advanced|美国29|5.0|NF*'
+    - 'Advanced|美国30|5.0|NF*'
+    - 'Advanced|美国31|5.0|NF*'
+    - 'Advanced|美国32|5.0|NF*'
+    - 'Advanced|美国33|5.0|NF*'
+    - 'Advanced|美国34|5.0|NF*'
+    - 'Advanced|美国35|5.0|NF*'
+    - 'Advanced|美国36|5.0|NF*'
     - 'Advanced|韩国1|2.0|NF*'
-    - 'Advanced|韩国2|2.0|NF*'
     - 'Advanced|香港01|3.0|NF*'
     - 'Advanced|香港02|3.0|NF*'
     - 'Advanced|香港03|3.0|NF*'
     - 'Advanced|香港04|3.0|NF*'
     - 'Advanced|香港05|3.0|NF*'
     - 'Advanced|香港06|3.0|NF*'
-    - 'Advanced|香港07|2.0|NF*'
-    - 'Advanced|香港08|3.0|NF*'
     - 'Basic|台湾1|1.0|NF*'
     - 'Basic|台湾2|1.0|NF*'
     - 'Basic|台湾3|1.0|NF*'
@@ -703,7 +664,6 @@ Proxy Group:
     - 'Basic|香港08|1.0|NF*'
     - 'Basic|香港09|1.0|NF*'
     - 'Basic|香港10|1.0|NF*'
-    - 'Special|日本|1.0|续费专用'
     - '[V2]Basic|香港01|2.0|NF*'
     - '[V2]Basic|香港02|2.0|NF*'
     - '[V2]Basic|香港03|2.0|NF*'
@@ -4617,7 +4577,6 @@ Rule:
  - DOMAIN-SUFFIX,i.clkservice.youdao.com,🛑 全球拦截
  - DOMAIN-SUFFIX,i.dreamfull.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,i.flow.browser.oppomobile.com,🛑 全球拦截
- - DOMAIN-SUFFIX,i.gdt.qq.com,🛑 全球拦截
  - DOMAIN-SUFFIX,i.go.sohu.com,🛑 全球拦截
  - DOMAIN-SUFFIX,i.haloapps.com,🛑 全球拦截
  - DOMAIN-SUFFIX,i.hao61.net,🛑 全球拦截
@@ -9873,6 +9832,25 @@ Rule:
  - DOMAIN-SUFFIX,googlevideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,youtube.com,🌍 国外媒体
  - DOMAIN,youtubei.googleapis.com,🌍 国外媒体
+ - DOMAIN-SUFFIX,acg.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,acgvideo.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,b23.tv,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biliapi.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilibili.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biligame.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,biligame.net,🌏 国内媒体
+ - DOMAIN-SUFFIX,bilivideo.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,hdslb.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,im9.com,🌏 国内媒体
+ - DOMAIN-KEYWORD,qiyi,🌏 国内媒体
+ - DOMAIN-SUFFIX,qy.net,🌏 国内媒体
+ - IP-CIDR,101.227.0.0/16,🌏 国内媒体,no-resolve
+ - IP-CIDR,101.224.0.0/13,🌏 国内媒体,no-resolve
+ - IP-CIDR,119.176.0.0/12,🌏 国内媒体,no-resolve
+ - DOMAIN-SUFFIX,api.mob.app.letv.com,🌏 国内媒体
+ - DOMAIN-SUFFIX,vv.video.qq.com,🌏 国内媒体
+ - IP-CIDR,106.11.0.0/16,🌏 国内媒体,no-resolve
  - DOMAIN-SUFFIX,t.me,📲 电报信息
  - DOMAIN-SUFFIX,tdesktop.com,📲 电报信息
  - DOMAIN-SUFFIX,telegra.ph,📲 电报信息
